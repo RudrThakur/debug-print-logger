@@ -1,7 +1,5 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:debug_print_logger/src/constants/enum.dart';
-
 const Map<String, String> ANSI_COLOR_CODES = {
   /// Regular Pallete
   "reset": "\x1B[0m",
@@ -23,13 +21,4 @@ const Map<String, String> ANSI_COLOR_CODES = {
 
   /// Backgound Pallete
   "background_bright_white": "\x1B[47;1m"
-};
-
-const Map<Layer, dynamic> LAYER_TO_COLOR_MAP = {
-  Layer.PROVIDER: "bright_yellow",
-  Layer.NETWORK: "bright_cyan",
-  Layer.SERVICE: "bright_green",
-  Layer.CONTROLLER: "bright_yellow",
-  Layer.ERROR: "bright_red",
-  Layer.DEFAULT: "bright_white"
 };
