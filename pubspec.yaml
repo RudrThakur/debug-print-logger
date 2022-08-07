@@ -1,7 +1,7 @@
 name: debug_print_logger
-description: A new Flutter package project.
+description: A Basic Logging Library that uses debugPrint to log into console
 version: 0.0.1
-homepage:
+homepage: https://github.com/RudrThakur/debug-print-logger
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
